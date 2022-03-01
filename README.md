@@ -31,9 +31,6 @@
 3. npm install
 4. npm start to serve into local 8080 port
 
-### Run tests
-run: npm run test
-
 ### Deployment
 https://mnekx.github.io/leaderboard/dist/
 
