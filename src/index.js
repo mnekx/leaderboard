@@ -27,9 +27,11 @@ addingForm.addEventListener('submit', (e) => {
 addingBtn.addEventListener('click', () => {
   const nameInput = document.querySelector('#name');
   const scoreInput = document.querySelector('#score');
-  listItemsComponent.addItem(nameInput.value, scoreInput.value);
-  nameInput.value = '';
-  scoreInput.value = '';
+  if (nameInput.value !== '' || scoreInput.value !== '') {
+    listItemsComponent.addItem(nameInput.value, scoreInput.value);
+    nameInput.value = '';
+    scoreInput.value = '';
+  }
 });
 
 refreshBtn.addEventListener('click', () => {
