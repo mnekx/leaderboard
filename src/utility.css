@@ -19,6 +19,10 @@
   justify-content: space-between;
 }
 
+.item {
+  padding: 0.5rem 2rem;
+}
+
 .item:nth-child(odd) {
   background-color: #aaa;
 }
