@@ -33,4 +33,13 @@ input {
   width: 100%;
 }
 
+input {
+  padding: 0.5rem 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+input:focus {
+  font-size: medium;
+}
+
 @import url('./utility.css');
