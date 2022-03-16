@@ -12,13 +12,47 @@
 }
 
 .input-form {
-  height: 15vh;
+  height: 20vh;
   width: 100%;
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
 }
 
+.item {
+  padding: 0.5rem 2rem;
+}
+
 .item:nth-child(odd) {
   background-color: #aaa;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: white;
+}
+
+.btn:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: lightgoldenrodyellow;
+  color: black;
+}
+
+.btn-submit {
+  background-color: white;
+  color: black;
+}
+
+.btn-submit:hover {
+  color: orange;
+}
+
+.btn-refresh {
+  border: none;
 }

@@ -1,5 +1,14 @@
+@font-face {
+  font-family: 'Nunito Sans', sans-serif;
+  src: url("./fonts/nunito/NunitoSans-Regular.ttf");
+}
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 hgroup {
@@ -15,11 +24,22 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  height: 50vh;
+  overflow-y: scroll;
 }
 
 label,
 input {
   width: 100%;
+}
+
+input {
+  padding: 0.5rem 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+input:focus {
+  font-size: medium;
 }
 
 @import url('./utility.css');
